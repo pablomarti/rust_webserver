@@ -1,0 +1,48 @@
+<html>
+
+<head>
+  <title>Event</title>
+
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    table,
+    th,
+    td {
+      border: 1px solid black;
+    }
+
+    th,
+    td {
+      padding: 15px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Event</h1>
+
+  <div>
+    <table>
+      <tr>
+        <th>ID</th>
+        <th>Field</th>
+        <th>Value</th>
+      </tr>
+      <tr>
+        <td>{{ id }}</td>
+        <td>{{ field }}</td>
+        <td>{{ value }}</td>
+    </table>
+  </div>
+</body>
+
+</html>

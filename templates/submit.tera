@@ -1,0 +1,28 @@
+<html>
+
+<head>
+  <title>Submit Event</title>
+
+  <style>
+    form {
+      width: 100%;
+      border-collapse: collapse;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Submit field to Kafka Events Topic</h1>
+
+  <form action="/event" method="POST">
+    <label for="id">ID:</label><br>
+    <input type="text" id="id" name="id" value="1"><br>
+    <label for="field">Field:</label><br>
+    <input type="text" id="field" name="field" value="field1"><br>
+    <label for="value">Value:</label><br>
+    <input type="text" id="value" name="value" value="value1"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+
+</html>

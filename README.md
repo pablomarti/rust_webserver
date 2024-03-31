@@ -1,6 +1,7 @@
 # Rust Webserver
 
-This is a simple webserver built with [Rocket](https://rocket.rs/) and [Tera](https://keats.github.io/tera/docs/). For more details look at Cargo.
+This is a simple webserver built with [Rocket](https://rocket.rs/) and [Tera](https://keats.github.io/tera/docs/). For the serializers
+it works with Serde. For more details look at Cargo.
 
 For this test project it produces messages to a Kafka topic, it works with [rdkafka](https://github.com/fede1024/rust-rdkafka).
 
